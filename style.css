@@ -1,0 +1,23 @@
+.servicios {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); /* 2 columnas responsivas */
+  gap: 2rem;
+  padding: 2rem;
+}
+
+.servicio {
+  background-color: #f9f9f9;
+  padding: 1.5rem;
+  border-radius: 12px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.servicio h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+}
+
+.servicio ul {
+  padding-left: 1.2rem;
+  list-style: disc;
+}
